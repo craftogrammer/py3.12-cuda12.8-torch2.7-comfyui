@@ -76,7 +76,7 @@ Once the container is running:
 
 ### Manual RunPod Setup
 1. **Create Pod**: Select GPU instance (RTX 4090+ recommended)
-2. **Docker Image**: `craftogrammer/py3.12-cuda12.8-torch2.7-comfyui:latest`
+2. **Docker Image**: `docker.io/craftogrammer/py3.12-cuda12.8-torch2.7-comfyui`
 3. **Ports**: Expose `8188` (ComfyUI) and `11434` (Ollama)
 4. **Volume**: Mount `/workspace` for persistent storage
 5. **Start**: Container auto-starts ComfyUI and Ollama on boot
