@@ -10,19 +10,12 @@ GPU-optimized Docker image for [ComfyUI](https://github.com/comfyanonymous/Comfy
 ## 🎯 Features & What's Included
 
 ### Key Features
-- **🚀 Fresh Setup**: Automated ComfyUI installation with persistent data recovery
-- **🔥 GPU Ready**: NVIDIA CUDA 12.8 with PyTorch 2.7 support
-- **🧠 AI Tools**: ComfyUI + Ollama pre-installed
-- **💾 Smart Backup**: Preserves models, outputs, and user data during updates
-- **📦 Pre-compiled**: GPU packages included for faster startup
-- **🔧 Auto-Manager**: ComfyUI-Manager included for easy extension management
-
-### Pre-installed Components
-- **ComfyUI**: Latest stable version
-- **ComfyUI-Manager**: For easy node management
-- **Ollama**: Local LLM inference engine
-- **GPU Wheels**: Pre-compiled packages (flash_attn, sageattention)
-- **PyTorch**: CUDA 12.8 optimized build
+- **🚀 Fresh Setup**: Automated ComfyUI installation with remote storage support, optional Ollama integration
+- **🔥 GPU Ready**: Blackwell GPU optimized with NVIDIA CUDA 12.8 and PyTorch 2.7 (stable versions for maximum node compatibility)
+- **🧠 AI Tools**: ComfyUI + Ollama pre-installed with local LLM inference engine
+- **⚡ Pre-compiled Optimizations**: Built-in Sage Attention 2.2+ with Triton and Flash Attention 2.7+ to save setup time
+- **🧹 Clean Installation**: Clones fresh ComfyUI while preserving models, inputs, outputs, and user workflows - avoiding remote storage issues
+- **🛠 Ready to Use**: Pre-installed ComfyUI-Manager node for easy custom node installation without conflicts
 
 ### Specifications
 | Component | Version | Description |
